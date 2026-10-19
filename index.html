@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Portfolio</title>
+    <style>
+        /* CAŁA STRONA */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            background: linear-gradient(
+                135deg,
+                #e40303,
+                #ff8c00,
+                #ffed00,
+                #008026,
+                #004dff,
+                #750787
+            );
+        }
+
+        /* GÓRA STRONY */
+        header {
+            background-color: rgba(0, 0, 0, 0.75);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* MENU */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* GŁÓWNA CZĘŚĆ STRONY */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* SEKCJE */
+        section {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 20px;
+            padding: 25px;
+            border-radius: 15px;
+        }
+
+        /* NAGŁÓWKI */
+        h2 {
+            color: #750787;
+        }
+
+        /* PROJEKTY */
+        article {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 5px solid #750787;
+            border-radius: 8px;
+        }
+
+        /* LINKI W PROJEKTACH */
+        article a {
+            color: #004dff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* STOPKA */
+        footer {
+            background-color: rgba(0, 0, 0, 0.75);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elon Maska</h1>
+        <p>Projektant stron internetowych</p>
+        <nav>
+            <ul>
+                <li><a href="#o-mnie">O mnie</a></li>
+                <li><a href="#projekty">Projekty</a></li>
+                <li><a href="#umiejetnosci">Umiejętności</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="o-mnie">
+            <h2>O mnie</h2>
+            <p>
+                Cześć! Nazywam się Elon Maska. Interesuję się
+                tworzeniem stron internetowych oraz projektowaniem
+                nowoczesnych interfejsów.
+            </p>
+            <p>
+                Lubię tworzyć proste, przejrzyste i funkcjonalne
+                strony internetowe. Stale rozwijam swoje umiejętności
+                i pracuję nad nowymi projektami.
+            </p>
+        </section>
+
+        <section id="projekty">
+            <h2>Moje projekty</h2>
+
+            <article>
+                <h3>Strona firmowa</h3>
+                <p>
+                    Projekt nowoczesnej strony internetowej
+                    dla małej firmy.
+                </p>
+                <a href="#">Zobacz projekt</a>
+            </article>
+
+            <article>
+                <h3>Portfolio fotografa</h3>
+                <p>
+                    Prosta strona prezentująca zdjęcia
+                    oraz najważniejsze informacje o fotografie.
+                </p>
+                <a href="#">Zobacz projekt</a>
+            </article>
+
+            <article>
+                <h3>Sklep internetowy</h3>
+                <p>
+                    Projekt strony internetowej sklepu
+                    z przejrzystą prezentacją produktów.
+                </p>
+                <a href="#">Zobacz projekt</a>
+            </article>
+        </section>
+
+        <section id="umiejetnosci">
+            <h2>Moje umiejętności</h2>
+            <ul>
+                <li>HTML</li>
+                <li>Tworzenie stron internetowych</li>
+                <li>Responsywne projektowanie</li>
+                <li>Projektowanie interfejsów</li>
+                <li>Podstawy UX</li>
+            </ul>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>
+                Masz pomysł na projekt? Skontaktuj się ze mną.
+            </p>
+            <p>
+                E-mail:
+                <a href="mailto:kontakt@example.com">
+                    kontakt@example.com
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Elon Maska. Wszystkie prawa zastrzeżone.
+        </p>
+    </footer>
+</body>
+</html>
