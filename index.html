@@ -4,92 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moje Portfolio</title>
-    <style>
-        /* CAŁA STRONA */
-        body {
-            font-family: Arial, sans-serif;
-            color: #333;
-            margin: 0;
-            background: linear-gradient(
-                135deg,
-                #e40303,
-                #ff8c00,
-                #ffed00,
-                #008026,
-                #004dff,
-                #750787
-            );
-        }
-        /* GÓRA STRONY */
-        header {
-            background-color: rgba(0, 0, 0, 0.75);
-            color: white;
-            text-align: center;
-            padding: 30px;
-        }
-        /* MENU */
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav li {
-            display: inline;
-            margin: 0 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        /* GŁÓWNA CZĘŚĆ STRONY */
-        main {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-        /* SEKCJE */
-        section {
-            background-color: rgba(255, 255, 255, 0.9);
-            margin-bottom: 20px;
-            padding: 25px;
-            border-radius: 15px;
-        }
-        /* NAGŁÓWKI */
-        h2 {
-            color: #750787;
-        }
-        /* PROJEKTY */
-        .karta {
-            background-color: rgba(255, 255, 255, 0.7);
-            padding: 20px;
-            margin-bottom: 15px;
-            border-left: 5px solid #750787;
-            border-radius: 8px;
-        }
-
-        .karta.wyrozniona {
-            background-color: gold;
-            border-left: 5px solid red;
-        }
-
-        .karta p {
-            color: blue;
-        }
-        
-        /* LINKI W PROJEKTACH */
-        article a {
-            color: #004dff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        /* STOPKA */
-        footer {
-            background-color: rgba(0, 0, 0, 0.75);
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -108,7 +23,7 @@
         <section id="o-mnie">
             <h2>O mnie</h2>
             <p>
-                Cześć! Nazywam się Elon Maska. Interesuję się
+                Cześć! Nazywam się Elon Mask. Interesuję się
                 tworzeniem stron internetowych oraz projektowaniem
                 nowoczesnych interfejsów.
             </p>
@@ -120,7 +35,7 @@
         </section>
         <section id="projekty">
             <h2>Moje projekty</h2>
-            <article class = "karta">
+            <article class="karta">
                 <h3>Strona firmowa</h3>
                 <p>
                     Projekt nowoczesnej strony internetowej
@@ -128,7 +43,7 @@
                 </p>
                 <a href="#">Zobacz projekt</a>
             </article>
-            <article class = "karta">
+            <article class="karta">
                 <h3>Portfolio fotografa</h3>
                 <p>
                     Prosta strona prezentująca zdjęcia
@@ -136,7 +51,7 @@
                 </p>
                 <a href="#">Zobacz projekt</a>
             </article>
-            <article class = "karta wyrozniona">
+            <article class="karta wyrozniona">
                 <h3>Sklep internetowy</h3>
                 <p>
                     Projekt strony internetowej sklepu
@@ -162,16 +77,12 @@
             </p>
             <p>
                 E-mail:
-                <a href="mailto:kontakt@example.com">
-                    kontakt@example.com
-                </a>
+                <a href="mailto:kontakt@example.com">kontakt@example.com</a>
             </p>
         </section>
     </main>
     <footer>
-        <p>
-            &copy; 2026 Elon Maska. Wszystkie prawa zastrzeżone.
-        </p>
+        <p>&copy; 2026 Elon Maska. Wszystkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
